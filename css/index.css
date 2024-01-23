@@ -1,0 +1,105 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: rgb(51, 51, 51);
+}
+
+.imagenPrincipal {
+    background-image: url('../assets/indexFondo1.jpg');
+    background-size: cover;
+    background-position: center; 
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+}
+
+.slogan {
+    background-color: rgba(0, 0, 0, 0.863);
+    color: white;
+    font-family: 'Copperplate Gothic';
+    font-size: 120%;
+    padding: 20px;
+    margin: 10px;
+}
+
+.accesoProductos{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.432);
+
+    padding: 12px 20px;
+    margin-bottom: 40px;
+
+    color: rgb(0, 0, 0);
+    transition: background-color 0.8s;
+
+    font-family: "Copperplate Gothic";
+    font-weight: bold;
+    font-size: 80%;
+}
+
+.accesoProductos:hover{
+    background-color: rgba(146, 146, 146, 0.432);
+}
+
+.seccionArticulos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    padding: 20px 5vw;
+}
+
+.articulos{
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin: 20px 1vw;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Copperplate Gothic";
+    font-size: 60%;
+    flex: 1 1 250px;
+    aspect-ratio: 9/16;
+    overflow: hidden; 
+    padding-bottom: 3em;
+}
+
+.articulos a{
+    color: white;
+}
+
+.articulos:hover{
+    background-color: #00000098;
+    opacity: 0.5;
+}
+
+.imagen{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.seccionNosotros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.nosotros {
+    background-color: rgba(185, 185, 185, 0.418);
+    flex: 1 1 20px;
+    padding: 20px;
+    text-align: center;
+    
+    color: rgb(0, 0, 0);
+    font-family: "Copperplate Gothic";
+    font-weight: bold;
+    font-size: 100%;
+}
